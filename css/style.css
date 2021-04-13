@@ -45,6 +45,24 @@ section {
     margin-bottom: 10%;
 }
 
+.div1::before {
+    content: "Hello World Y'all";
+    color: white;
+    font-size: 50px;
+}
+
+.div1::after {
+    content: "Hello After Y'all";
+    color: white;
+    font-size: 50px;
+}
+
+.div2::before {
+    content: "Hello World again Y'all";
+    color: white;
+    font-size: 50px;
+}
+
 .div2 {
     height: 45%;
     width: 50%;
